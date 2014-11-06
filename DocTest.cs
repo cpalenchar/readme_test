@@ -21,6 +21,16 @@ namespace readme_test
         * @apiExample       {curl}              Example usage:
         *       curl -H "Authorization: Basic {authorizationToken}" https:/main.api.livefluence.com/{siteID}/blockedvisitor
         *       
+        * @apiSuccessExample {json} Success-Response:
+        *     HTTP/1.1 200 OK
+        *     {
+        *       [{"blockedVisitorID": 1,  
+        *       "fromIPAddress": "123.123.123.123",
+        *       "toIPAddress": "123.123.123.125",
+        *       "reason": "User spamming chat request"
+        *       }]
+        *     }
+        *       
         * @apiParam         {Number}        siteID                              The site's unique ID.
         * 
         * @apiSuccess       {Object[]}      BlockedVisitor                      BlockedVisitor
@@ -66,11 +76,6 @@ namespace readme_test
         *       "fromIPAddress": "123.123.123.123",
         *       "toIPAddress": "123.123.123.125",
         *       "reason": "User spamming chat request"
-        *       },
-        *       {"blockedVisitorID": 2,
-        *       "fromIPAddress": "223.123.123.123",
-        *       "toIPAddress": "223.123.123.123",
-        *       "reason": "User spamming chat request"
         *       }]
         *     }
         * 
@@ -115,6 +120,16 @@ namespace readme_test
         *       -H "Authorization: Basic {authorizationToken}"  /
         *       -H "Content-Type: application/json" /
         *       -d "{"blockedVisitorID": 1, "fromIPAddres": "123.123.123.123", "toIPAddress": "123.123.123.125", "reason": "User is spamming chat requests"}"
+        *       
+        * @apiSuccessExample {json} Success-Response:
+        *     HTTP/1.1 200 OK
+        *     {
+        *       [{"blockedVisitorID": 1,  
+        *       "fromIPAddress": "123.123.123.123",
+        *       "toIPAddress": "123.123.123.125",
+        *       "reason": "User spamming chat request"
+        *       }]
+        *     }
         *      
         * @apiParam         {Number}        siteID                                  The site's unique ID.
         * @apiParam         {Object}        BlockedVisitor BlockedVisitor
