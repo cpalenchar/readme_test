@@ -60,6 +60,7 @@ namespace readme_test
         * @api {post} /{siteID}/blockedvisitor/ create
         * @apiName post
         * @apiGroup Blocked Visitor
+        * @apiGroupDescription A blocked visitor is a range of ip addresses that you would like to block from having access to the site.
         * @apiDescription Create a new blocked visitor for this site.
         * @apiPermission siteAdministrator
         * 
