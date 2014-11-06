@@ -85,6 +85,7 @@ namespace readme_test
         * @apiParam         {String}        BlockedVisitor.fromIPAddress        The beginning range of this visitor's ip addresses to block.
         * @apiParam         {String}        BlockedVisitor.toIPAddress          The ending range of this visitor's ip addresses to block.
         * @apiParam         {String}        BlockedVisitor.reason               The reason this visitor is being blocked.
+        * @apiParam         {String}        [optional]                          Test optional parameter.
         * 
         * @apiSuccess       {Object}        BlockedVisitor                      BlockedVisitor
         * @apiSuccess       {Number}        BlockedVisitor.blockedVisitorID     The unique id of this blocked visitor.
