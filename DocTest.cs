@@ -57,7 +57,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/blockedvisitor/ Create
+        * @api {post} /{siteID}/blockedvisitor/ create
         * @apiName post
         * @apiGroup Blocked Visitor
         * @apiDescription Create a new blocked visitor for this site.
