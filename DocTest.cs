@@ -59,6 +59,22 @@ namespace readme_test
         *       -H "Content-Type: application/json" \
         *       -d "{"fromIPAddres": "123.123.123.123", "toIPAddress": "123.123.123.125", "reason": "User is spamming chat requests"}"
         *       
+        * @apiSuccessExample {json} Success-Response:
+        *     HTTP/1.1 200 OK
+        *     {
+        *       [{"blockedVisitorID": 1,  
+        *       "fromIPAddress": "123.123.123.123",
+        *       "toIPAddress": "123.123.123.125",
+        *       "reason": "User spamming chat request"
+        *       },
+        *       {"blockedVisitorID": 2,
+        *       "fromIPAddress": "223.123.123.123",
+        *       "toIPAddress": "223.123.123.123",
+        *       "reason": "User spamming chat request"
+        *       }]
+        *     }
+        * 
+        *       
         * @apiParam         {Number}        siteID                              The site's unique ID.
         * @apiParam         {Object}        BlockedVisitor                      BlockedVisitor
         * @apiParam         {String}        BlockedVisitor.fromIPAddress        The beginning range of this visitor's ip addresses to block.
