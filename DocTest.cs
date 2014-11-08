@@ -11,7 +11,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/blockedvisitor/ read
+        * @api {get} /{siteID}/blockedvisitor1/ read
         * @apiName get
         * @apiGroup Settings > /blockedvisitor1
         * @apiGroupDescription Provides access to manage blocked visitors, ip address ranges, and to read visitors that have been blocked.
@@ -57,7 +57,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/blockedvisitor/ create
+        * @api {post} /{siteID}/blockedvisitor1/ create
         * @apiName post
         * @apiGroup Settings > /blockedvisitor1
         * @apiGroupDescription A blocked visitor is a range of ip addresses that you would like to block from having access to the site.
@@ -111,7 +111,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {put} /{siteID}/blockedvisitor/ update
+        * @api {put} /{siteID}/blockedvisitor1/ update
         * @apiName put
         * @apiGroup Settings > /blockedvisitor1
         * @apiDescription Update a blocked visitor for this site.
@@ -163,7 +163,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {delete} /{siteID}/blockedvisitor/:id delete
+        * @api {delete} /{siteID}/blockedvisitor1/:id delete
         * @apiName delete
         * @apiGroup Settings > /blockedvisitor1
         * @apiDescription Delete a blocked visitor for this site.
