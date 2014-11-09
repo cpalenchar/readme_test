@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/login/ Login
         * @apiName Login
-        * @apiGroup Account > /Login
+        * @apiGroup SETTINGS > /Login
         * @apiDescription Login to the api.
         * @apiPermission anonymous
         * 
@@ -61,7 +61,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/logout/ Logout
         * @apiName Logout
-        * @apiGroup Account > /Logout
+        * @apiGroup SETTINGS >  /account
         * @apiDescription Logout of the api.
         * @apiPermission anonymous
         * 
@@ -93,7 +93,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/get/:id Read
         * @apiName Get:id
-        * @apiGroup Account > /Profile
+        * @apiGroup SETTINGS > /profile
         * @apiDescription Read the profile for this user.
         * @apiPermission agent
         * 
@@ -182,7 +182,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/getallusers/ Read All
         * @apiName Get All
-        * @apiGroup Account > /Profile
+        * @apiGroup SETTINGS > /profile
         * @apiDescription Read all the user profiles for this site.
         * @apiPermission siteManager
         * 
@@ -271,7 +271,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/post/ Update Profile
         * @apiName Post
-        *  @apiGroup Account > /Profile
+        *  @apiGroup SETTINGS > /profile
         * @apiDescription Update the profile for this user.
         * @apiPermission agent
         * 
@@ -388,7 +388,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/changepassword/ Update Password
         * @apiName Put Password
-        * @apiGroup Account > /Profile
+        * @apiGroup SETTINGS > /profile
         * @apiDescription Update the password for the user that is logged in.
         * @apiPermission agent
         * 
@@ -431,7 +431,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/updatetier/ Update Tier
         * @apiName Put Tier
-        * @apiGroup Account > /Profile
+        * @apiGroup SETTINGS > /profile
         * @apiDescription Update the tier for this user in this group.
         * @apiPermission siteAdministrator
         *
@@ -474,7 +474,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/Account/Headshot/:id Headshot
         * @apiName Headshot
-        * @apiGroup Account > /Profile
+        * @apiGroup SETTINGS > /profile
         * @apiDescription Update the headshot for this user.
         * @apiPermission agent
         * 
