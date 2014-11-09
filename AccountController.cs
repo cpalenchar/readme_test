@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/login/ Login
         * @apiName Login
-        * @apiGroup SETTINGS > /Login
+        * @apiGroup SETTINGS >  /account
         * @apiDescription Login to the api.
         * @apiPermission anonymous
         * 
@@ -38,7 +38,15 @@ namespace readme_test
         * 
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *     {"UserID":1,"UserName":"myemail@mydomain.com","Token":"cJ4Kx0Br0kackchZhXQIIQ","IssuedUTC":"1/1/2014 12:00 am","ExpiresUTC":"1/1/2014 12:00 am","ActiveSiteID":1,"Sites":[1]}
+        *     {
+        *       "UserID":1,
+        *       "UserName":"myemail@mydomain.com",
+        *       "Token":"cJ4Kx0Br0kackchZhXQIIQ",
+        *       "IssuedUTC":"1/1/2014 12:00 am",
+        *       "ExpiresUTC":"1/1/2014 12:00 am",
+        *       "ActiveSiteID":1,
+        *       "Sites":[1]
+        *     }
         * 
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -49,10 +57,7 @@ namespace readme_test
         *     }
         */
         #endregion
-        ///
-        /// Summary
-        ///
-        public void LogIn(string logInViewModel)
+        public void LogIn(String logInViewModel)
         {
         }
 
@@ -61,7 +66,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/logout/ Logout
         * @apiName Logout
-        * @apiGroup SETTINGS >  /account
+        * @apiGroup SETTINGS > /account
         * @apiDescription Logout of the api.
         * @apiPermission anonymous
         * 
@@ -84,7 +89,7 @@ namespace readme_test
         *     }
         */
         #endregion
-        public void Logout(string logoutViewModel)
+        public void Logout(String logoutViewModel)
         {
         }
 
@@ -162,7 +167,64 @@ namespace readme_test
         *
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *      {"userId":1046,"FirstName":"bob","LastName":"smith","Phone":"1111111111","Fax":null,"AlternateEmail":null,"HeadshotUrl":"http://mydomain.com/avatars/avatar2.png","TimeZone":"Dateline Standard Time","Language":"en","LastSystemNotice":"1980-01-01T00:00:00Z","LastLoginFailure":"1980-01-01T00:00:00Z","LastCheck":"1980-01-01T00:00:00Z","LastSuccessfulLogin":"2014-11-08T05:04:10.587Z","ConsecutiveLoginFailures":0,"VisualAlertsWhenUnavailable":true,"ShadowNotifications":true,"SoundsWhenUnavailable":true,"SoundsNewChat":"url2","SoundsNewEngagement":"url1","SoundsNewVisitor":"url1","SoundsError":"url2","EngagementFontSize":"18","ColorsMyText":"#555","ColorsVisitorText":"#4986e7","ColorsOtherAgentText":"#ac725e","ColorsSystemText":"#f83a22","NewEngagementPopupAlert":true,"UserName":"myemail@mydomain.com","DisplayName":"Administrator","AvailableAtLogin":false,"VisitorMonitoringEnabled":true,"EnableSystemTrayAlerts":true,"RepeatSoundAlerts":false,"LoggedInSinceTimeSpanVerbose":"4 minutes ago","LastLoggedInTimeSpanVerbose":"4 minutes ago","SiteID":33,"IsAdministrator":true,"IsManager":true,"IsAgent":true,"Tier":1,"AppVersion":"10.0.0.b","LoginTime":"2014-11-08T05:04:11.003Z","IsSignalRConnected":false,"IsLoggedIn":true,"Available":true,"IsBootRequested":false,"LastChatTime":"1980-01-01T00:00:00Z","IsPending":false,"PendingSince":"0001-01-01T00:00:00Z","PendingSinceVerbose":"not yet","CurrentChats":32,"TotalChats":0,"ApprovalRating":0.0,"HoursAvailable":0.0,"MaxChats":4,"Groups":[]}
+        *      {
+        *           "userId":1046,  
+        *           "FirstName":"bob",
+        *           "LastName":"smith",
+        *           "Phone":"1111111111",
+        *           "Fax":null,
+        *           "AlternateEmail":null,
+        *           "HeadshotUrl":"http://mydomain.com/avatars/avatar2.png",
+        *           "TimeZone":"Dateline Standard Time",
+        *           "Language":"en",
+        *           "LastSystemNotice":"1980-01-01T00:00:00Z",
+        *           "LastLoginFailure":"1980-01-01T00:00:00Z",
+        *           "LastCheck":"1980-01-01T00:00:00Z",
+        *           "LastSuccessfulLogin":"2014-11-08T05:04:10.587Z",
+        *           "ConsecutiveLoginFailures":0,
+        *           "VisualAlertsWhenUnavailable":true,
+        *           "ShadowNotifications":true,
+        *           "SoundsWhenUnavailable":true,
+        *           "SoundsNewChat":"url2",
+        *           "SoundsNewEngagement":"url1",
+        *           "SoundsNewVisitor":"url1",
+        *           "SoundsError":"url2",
+        *           "EngagementFontSize":"18",
+        *           "ColorsMyText":"#555",
+        *           "ColorsVisitorText":"#4986e7",
+        *           "ColorsOtherAgentText":"#ac725e",
+        *           "ColorsSystemText":"#f83a22",
+        *           "NewEngagementPopupAlert":true,
+        *           "UserName":"myemail@mydomain.com",
+        *           "DisplayName":"Administrator",
+        *           "AvailableAtLogin":false,
+        *           "VisitorMonitoringEnabled":true,
+        *           "EnableSystemTrayAlerts":true,
+        *           "RepeatSoundAlerts":false,
+        *           "LoggedInSinceTimeSpanVerbose":"4 minutes ago",
+        *           "LastLoggedInTimeSpanVerbose":"4 minutes ago",
+        *           "SiteID":33,
+        *           "IsAdministrator":true,
+        *           "IsManager":true,
+        *           "IsAgent":true,
+        *           "Tier":1,
+        *           "AppVersion":"10.0.0.b",
+        *           "LoginTime":"2014-11-08T05:04:11.003Z",
+        *           "IsSignalRConnected":false,
+        *           "IsLoggedIn":true,
+        *           "Available":true,
+        *           "IsBootRequested":false,
+        *           "LastChatTime":"1980-01-01T00:00:00Z",
+        *           "IsPending":false,
+        *           "PendingSince":"0001-01-01T00:00:00Z",
+        *           "PendingSinceVerbose":"not yet",
+        *           "CurrentChats":32,
+        *           "TotalChats":0,
+        *           "ApprovalRating":0.0,
+        *           "HoursAvailable":0.0,
+        *           "MaxChats":4,"
+        *           Groups":[]
+        *       }
         *      
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -182,7 +244,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/getallusers/ Read All
         * @apiName Get All
-        * @apiGroup SETTINGS > /profile
+        * @apiGroup SETTINGS >  /profile
         * @apiDescription Read all the user profiles for this site.
         * @apiPermission siteManager
         * 
@@ -251,7 +313,64 @@ namespace readme_test
         *
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *      {[{"userId":1046,"FirstName":"bob","LastName":"smith","Phone":"1111111111","Fax":null,"AlternateEmail":null,"HeadshotUrl":"http://mydomain.com/avatars/avatar2.png","TimeZone":"Dateline Standard Time","Language":"en","LastSystemNotice":"1980-01-01T00:00:00Z","LastLoginFailure":"1980-01-01T00:00:00Z","LastCheck":"1980-01-01T00:00:00Z","LastSuccessfulLogin":"2014-11-08T05:04:10.587Z","ConsecutiveLoginFailures":0,"VisualAlertsWhenUnavailable":true,"ShadowNotifications":true,"SoundsWhenUnavailable":true,"SoundsNewChat":"url2","SoundsNewEngagement":"url1","SoundsNewVisitor":"url1","SoundsError":"url2","EngagementFontSize":"18","ColorsMyText":"#555","ColorsVisitorText":"#4986e7","ColorsOtherAgentText":"#ac725e","ColorsSystemText":"#f83a22","NewEngagementPopupAlert":true,"UserName":"myemail@mydomain.com","DisplayName":"Administrator","AvailableAtLogin":false,"VisitorMonitoringEnabled":true,"EnableSystemTrayAlerts":true,"RepeatSoundAlerts":false,"LoggedInSinceTimeSpanVerbose":"4 minutes ago","LastLoggedInTimeSpanVerbose":"4 minutes ago","SiteID":33,"IsAdministrator":true,"IsManager":true,"IsAgent":true,"Tier":1,"AppVersion":"10.0.0.b","LoginTime":"2014-11-08T05:04:11.003Z","IsSignalRConnected":false,"IsLoggedIn":true,"Available":true,"IsBootRequested":false,"LastChatTime":"1980-01-01T00:00:00Z","IsPending":false,"PendingSince":"0001-01-01T00:00:00Z","PendingSinceVerbose":"not yet","CurrentChats":32,"TotalChats":0,"ApprovalRating":0.0,"HoursAvailable":0.0,"MaxChats":4,"Groups":[]}]}
+        *      {
+        *           [{"userId":1046,  
+        *           "FirstName":"bob",
+        *           "LastName":"smith",
+        *           "Phone":"1111111111",
+        *           "Fax":null,
+        *           "AlternateEmail":null,
+        *           "HeadshotUrl":"http://mydomain.com/avatars/avatar2.png",
+        *           "TimeZone":"Dateline Standard Time",
+        *           "Language":"en",
+        *           "LastSystemNotice":"1980-01-01T00:00:00Z",
+        *           "LastLoginFailure":"1980-01-01T00:00:00Z",
+        *           "LastCheck":"1980-01-01T00:00:00Z",
+        *           "LastSuccessfulLogin":"2014-11-08T05:04:10.587Z",
+        *           "ConsecutiveLoginFailures":0,
+        *           "VisualAlertsWhenUnavailable":true,
+        *           "ShadowNotifications":true,
+        *           "SoundsWhenUnavailable":true,
+        *           "SoundsNewChat":"url2",
+        *           "SoundsNewEngagement":"url1",
+        *           "SoundsNewVisitor":"url1",
+        *           "SoundsError":"url2",
+        *           "EngagementFontSize":"18",
+        *           "ColorsMyText":"#555",
+        *           "ColorsVisitorText":"#4986e7",
+        *           "ColorsOtherAgentText":"#ac725e",
+        *           "ColorsSystemText":"#f83a22",
+        *           "NewEngagementPopupAlert":true,
+        *           "UserName":"myemail@mydomain.com",
+        *           "DisplayName":"Administrator",
+        *           "AvailableAtLogin":false,
+        *           "VisitorMonitoringEnabled":true,
+        *           "EnableSystemTrayAlerts":true,
+        *           "RepeatSoundAlerts":false,
+        *           "LoggedInSinceTimeSpanVerbose":"4 minutes ago",
+        *           "LastLoggedInTimeSpanVerbose":"4 minutes ago",
+        *           "SiteID":33,
+        *           "IsAdministrator":true,
+        *           "IsManager":true,
+        *           "IsAgent":true,
+        *           "Tier":1,
+        *           "AppVersion":"10.0.0.b",
+        *           "LoginTime":"2014-11-08T05:04:11.003Z",
+        *           "IsSignalRConnected":false,
+        *           "IsLoggedIn":true,
+        *           "Available":true,
+        *           "IsBootRequested":false,
+        *           "LastChatTime":"1980-01-01T00:00:00Z",
+        *           "IsPending":false,
+        *           "PendingSince":"0001-01-01T00:00:00Z",
+        *           "PendingSinceVerbose":"not yet",
+        *           "CurrentChats":32,
+        *           "TotalChats":0,
+        *           "ApprovalRating":0.0,
+        *           "HoursAvailable":0.0,
+        *           "MaxChats":4,"
+        *           Groups":[]}]
+        *       }
         * 
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -368,7 +487,48 @@ namespace readme_test
         * 
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *      { "SiteID": 1, "UserID": 1, "FirstName": "John", "LastName": "Smith",  "Phone": "111.111.1111", "Fax": "111.111.1111", "AlternateEmail": "email@domain.com", "HeadshotUrl": "mydomain.com/headshoturl.jpg", "TimeZone": "GMT Standard Time", "Language": "en", "LastSystemNotice": "1/1/2014 12:00 am", "LastLoginFailure": "1/1/2014 12:00 am", "LastSuccessfulLogin", "1/1/2014 12:00 am", "ConsecutiveLoginFailures": 0, "VisualAlertsWhenUnavailable": true, "ShadowNotifications": true, "SoundsWhenUnavailable" : true, "SoundsNewEngagement": "newengagement sound", "SoundsNewVisitor": "newvisitor sound, "SoundsError": "errorsound", "EngagementFontSize": "12", "ColorsMyText": "#ffffff", "ColorsVisitorText": "#ffffff", "ColorsOtherAgentText": "#ffffff", "ColorsSystemText": "#ffffff", "NewEngagementPopupAlert": true, "UserName": "myemail@mydomain.com", "DisplayName": "screen name", "AvailableAtLogin": true, "VisitorMonitoringEnabled": true, "EnableSystemTrayAlerts": true, "RepeatSoundAlerts": true, "IsAdministrator": true, "IsManager": true, "IsAgent": true, "Tier": 1 }
+        *      {
+        *           "userId":1046,  
+        *           "FirstName":"bob",
+        *           "LastName":"smith",
+        *           "Phone":"1111111111",
+        *           "Fax":null,
+        *           "AlternateEmail":null,
+        *           "HeadshotUrl":"http://mydomain.com/avatars/avatar2.png",
+        *           "TimeZone":"Dateline Standard Time",
+        *           "Language":"en",
+        *           "LastSystemNotice":"1980-01-01T00:00:00Z",
+        *           "LastLoginFailure":"1980-01-01T00:00:00Z",
+        *           "LastCheck":"1980-01-01T00:00:00Z",
+        *           "LastSuccessfulLogin":"2014-11-08T05:04:10.587Z",
+        *           "ConsecutiveLoginFailures":0,
+        *           "VisualAlertsWhenUnavailable":true,
+        *           "ShadowNotifications":true,
+        *           "SoundsWhenUnavailable":true,
+        *           "SoundsNewChat":"url2",
+        *           "SoundsNewEngagement":"url1",
+        *           "SoundsNewVisitor":"url1",
+        *           "SoundsError":"url2",
+        *           "EngagementFontSize":"18",
+        *           "ColorsMyText":"#555",
+        *           "ColorsVisitorText":"#4986e7",
+        *           "ColorsOtherAgentText":"#ac725e",
+        *           "ColorsSystemText":"#f83a22",
+        *           "NewEngagementPopupAlert":true,
+        *           "UserName":"myemail@mydomain.com",
+        *           "DisplayName":"Administrator",
+        *           "AvailableAtLogin":false,
+        *           "VisitorMonitoringEnabled":true,
+        *           "EnableSystemTrayAlerts":true,
+        *           "RepeatSoundAlerts":false,
+        *           "LoggedInSinceTimeSpanVerbose":"4 minutes ago",
+        *           "LastLoggedInTimeSpanVerbose":"4 minutes ago",
+        *           "SiteID":33,
+        *           "IsAdministrator":true,
+        *           "IsManager":true,
+        *           "IsAgent":true,
+        *           "Tier":1,
+        *       }
         * 
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -379,8 +539,9 @@ namespace readme_test
         *     }
         */
         #endregion
-        public void Post(String profile)
+        public void Post(string profile)
         {
+            
         }
 
         #region apiComments
@@ -388,7 +549,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/changepassword/ Update Password
         * @apiName Put Password
-        * @apiGroup SETTINGS > /profile
+        * @apiGroup SETTINGS >  /account
         * @apiDescription Update the password for the user that is logged in.
         * @apiPermission agent
         * 
@@ -411,7 +572,11 @@ namespace readme_test
         *
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *     {"NewPassword":"mynewpassword","CurrentPassword":"mycurrentpassword","Succeeded":true,"Errors";[]}
+        *     {
+        *          "NewPassword":"mynewpassword",
+        *          "CurrentPassword":"mycurrentpassword",
+        *          "Succeeded":true,
+        *          "Errors";[]}
         * 
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -422,7 +587,7 @@ namespace readme_test
         *     }
         */
         #endregion
-        public void UpdatePassword(String passwordChangeViewModel)
+        public void UpdatePassword(string passwordChangeViewModel)
         {
         }
 
@@ -431,7 +596,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/updatetier/ Update Tier
         * @apiName Put Tier
-        * @apiGroup SETTINGS > /profile
+        * @apiGroup SETTINGS > /account
         * @apiDescription Update the tier for this user in this group.
         * @apiPermission siteAdministrator
         *
@@ -454,7 +619,11 @@ namespace readme_test
         *
         * @apiSuccessExample {json} Success-Response:
         *     HTTP/1.1 200 OK
-        *     {"UserID":1,"GroupID":1,"Tier":1}
+        *     {
+        *          "UserID":1,
+        *          "GroupID":1,
+        *          "Tier":1"
+        *     }
         * 
         * @apiError NotAuthorized The user is not authorized yet to make the call.
         * 
@@ -465,7 +634,7 @@ namespace readme_test
         *     }
         */
         #endregion
-        public void UpdateTier(String newTier)
+        public void UpdateTier(string newTier)
         {
         }
 
@@ -474,7 +643,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/Account/Headshot/:id Headshot
         * @apiName Headshot
-        * @apiGroup SETTINGS > /profile
+        * @apiGroup SETTTINGS > /account
         * @apiDescription Update the headshot for this user.
         * @apiPermission agent
         * 
