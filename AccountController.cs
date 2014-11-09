@@ -11,7 +11,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/account/login/ Login
+        * @api {post} /{siteID}/account/login/ login
         * @apiName Login
         * @apiGroup SETTINGS >  /account
         * @apiDescription Login to the api.
@@ -64,7 +64,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/account/logout/ Logout
+        * @api {post} /{siteID}/account/logout/logout
         * @apiName Logout
         * @apiGroup SETTINGS > /account
         * @apiDescription Logout of the api.
@@ -96,9 +96,9 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/account/get/:id Read
+        * @api {get} /{siteID}/account/get/:id read
         * @apiName Get:id
-        * @apiGroup SETTINGS > /profile
+        * @apiGroup SETTINGS > /account
         * @apiDescription Read the profile for this user.
         * @apiPermission agent
         * 
@@ -242,9 +242,9 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/account/getallusers/ Read All
+        * @api {get} /{siteID}/account/getallusers/ read all
         * @apiName Get All
-        * @apiGroup SETTINGS >  /profile
+        * @apiGroup SETTINGS >  /account
         * @apiDescription Read all the user profiles for this site.
         * @apiPermission siteManager
         * 
@@ -388,9 +388,9 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/account/post/ Update Profile
+        * @api {post} /{siteID}/account/post/ update profile
         * @apiName Post
-        *  @apiGroup SETTINGS > /profile
+        *  @apiGroup SETTINGS > /account
         * @apiDescription Update the profile for this user.
         * @apiPermission agent
         * 
@@ -547,7 +547,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {put} /{siteID}/account/changepassword/ Update Password
+        * @api {put} /{siteID}/account/changepassword/ update password
         * @apiName Put Password
         * @apiGroup SETTINGS >  /account
         * @apiDescription Update the password for the user that is logged in.
@@ -594,7 +594,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {put} /{siteID}/account/updatetier/ Update Tier
+        * @api {put} /{siteID}/account/updatetier/ update tier
         * @apiName Put Tier
         * @apiGroup SETTINGS > /account
         * @apiDescription Update the tier for this user in this group.
@@ -641,7 +641,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/Account/Headshot/:id Headshot
+        * @api {post} /{siteID}/Account/Headshot/:id headshot
         * @apiName Headshot
         * @apiGroup SETTTINGS > /account
         * @apiDescription Update the headshot for this user.
