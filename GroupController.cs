@@ -1093,7 +1093,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/group/configurationproperty update configuration property
         * @apiName updateconfigurationproperty
-        * @apiGroup SETTINGS > /Group
+        * @apiGroup SETTINGS > /group
         * @apiDescription Update a configuration property for this group.
         * @apiPermission siteAdministrator
         *
