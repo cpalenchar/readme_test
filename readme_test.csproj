@@ -47,7 +47,9 @@
     <Compile Include="CobrowseDomainController.cs" />
     <Compile Include="CobrowseReplacementController.cs" />
     <Compile Include="ContentTargettingController.cs" />
+    <Compile Include="ConversionController.cs" />
     <Compile Include="DocTest.cs" />
+    <Compile Include="EngagementScheduleController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
