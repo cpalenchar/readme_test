@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/login/ login
         * @apiName Login
-        * @apiGroup SETTINGS >  /account
+        * @apiGroup SETTINGS > /account
         * @apiDescription Login to the api.
         * @apiPermission anonymous
         * 
@@ -244,7 +244,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/getallusers/ read all
         * @apiName Get All
-        * @apiGroup SETTINGS >  /account
+        * @apiGroup SETTINGS > /account
         * @apiDescription Read all the user profiles for this site.
         * @apiPermission siteManager
         * 
@@ -549,7 +549,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/changepassword/ update password
         * @apiName Put Password
-        * @apiGroup SETTINGS >  /account
+        * @apiGroup SETTINGS > /account
         * @apiDescription Update the password for the user that is logged in.
         * @apiPermission agent
         * 

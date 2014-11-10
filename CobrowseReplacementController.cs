@@ -198,7 +198,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/cobrowsereplacement/:id delete
         * @apiName delete
-        * @apiGroup SETINGS > /cobrowse replacement
+        * @apiGroup SETTINGS > /cobrowse replacement
         * @apiDescription Delete cobrowse replacement.
         * @apiPermission siteManager
         *
