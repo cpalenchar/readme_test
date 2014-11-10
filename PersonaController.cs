@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/persona read all
+        * @api {get} /{siteID}/persona list
         * @apiName get
         * @apiGroup Settings > /persona
-        * @apiDescription Read all the personas for this site.
+        * @apiDescription list the personas for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -565,7 +565,7 @@ namespace readme_test
         * @api {get} /{siteID}/persona/personasingroup/:personaID read persona groups by persona
         * @apiName getpersonasingroup
         * @apiGroup Settings > /persona
-        * @apiDescription Read all the persona groups for this persona.
+        * @apiDescription list the persona groups for this persona.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -607,10 +607,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/persona/personagroup read all persona groups
+        * @api {get} /{siteID}/persona/personagroup list persona groups
         * @apiName getpersonagroups
         * @apiGroup Settings > /persona
-        * @apiDescription Read all the persona groups for this site.
+        * @apiDescription list the persona groups for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:

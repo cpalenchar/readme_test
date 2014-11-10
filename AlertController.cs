@@ -14,7 +14,7 @@ namespace readme_test
         * @api {get} /{siteID}/alert/getbysite get by site
         * @apiName GetBySite
         * @apiGroup Settings > /alert
-        * @apiDescription Read all alerts for this site.
+        * @apiDescription list alerts for this site.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}              Example usage:

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/inlinechatdesigner read all
+        * @api {get} /{siteID}/inlinechatdesigner list
         * @apiName get
         * @apiGroup Settings > /inline chat designer
-        * @apiDescription Read all the inline chat designs for a site.
+        * @apiDescription list the inline chat designs for a site.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}          Example usage:
@@ -420,7 +420,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/inlinechatdesigner/inlinechatcss read all inline chat css files
+        * @api {get} /{siteID}/inlinechatdesigner/inlinechatcss list inline chat css files
         * @apiName getallinlinechatcssfiles
         * @apiGroup Settings > /inline chat designer
         * @apiDescription Read the inline chat css files for a site.

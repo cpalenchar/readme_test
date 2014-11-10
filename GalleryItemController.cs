@@ -454,7 +454,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/galleryitemcontroller/buttongalleries read all button galleries
+        * @api {get} /{siteID}/galleryitemcontroller/buttongalleries list button galleries
         * @apiName getallbuttongalleries
         * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are buttons for this site.
@@ -526,7 +526,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/galleryitemcontroller/buttongalleryfiles/:id read all button gallery files
+        * @api {get} /{siteID}/galleryitemcontroller/buttongalleryfiles/:id list button gallery files
         * @apiName getallbuttongalleryfiles
         * @apiGroup Settings > /gallery item
         * @apiDescription Read the button gallery file for this gallery item.
@@ -736,7 +736,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/galleryitemcontroller/invitationgalleries read all invitation galleries
+        * @api {get} /{siteID}/galleryitemcontroller/invitationgalleries list invitation galleries
         * @apiName getallinvitationgalleries
         * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are invitations for this site.
@@ -984,7 +984,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/galleryitemcontroller/skingalleries read all skin galleries
+        * @api {get} /{siteID}/galleryitemcontroller/skingalleries list skin galleries
         * @apiName getallskingalleries
         * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are skins for this site.

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/invitationcontroller read all
+        * @api {get} /{siteID}/invitationcontroller list
         * @apiName get
         * @apiGroup Settings > /invitation
-        * @apiDescription Read all the invitations for a site.
+        * @apiDescription list the invitations for a site.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}              Example usage:
@@ -207,7 +207,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/invitationcontroller/getgalleryitem/:galleryItemID read by gallery item
+        * @api {get} /{siteID}/invitationcontroller/getgalleryitem/:galleryItemID list by gallery item
         * @apiNamegGet:galleryItemID
         * @apiGroup Settings > /invitation
         * @apiDescription Read the invitation for this gallery item.

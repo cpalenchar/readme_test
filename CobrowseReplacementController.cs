@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cobrowsereplacement read all
+        * @api {get} /{siteID}/cobrowsereplacement list
         * @apiName get
         * @apiGroup Settings > /cobrowse replacement
-        * @apiDescription Read all the cobrowse replacements for this site.
+        * @apiDescription list the cobrowse replacements for this site.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}              Example usage:

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/site/getall read all
+        * @api {get} /{siteID}/site/getall list
         * @apiName getall
         * @apiGroup Settings > /site
-        * @apiDescription Read all the sites for this user.
+        * @apiDescription list the sites for this user.
         * @apiPermission siteAdministrator
         * 
         * @apiExample       {curl}              Example usage:
@@ -769,7 +769,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/site/getnewuserrequests read all new user requests
+        * @api {get} /{siteID}/site/getnewuserrequests list new user requests
         * @apiName getnewuserrequests
         * @apiGroup Settings > /site
         * @apiDescription Read the new user requests for this site.

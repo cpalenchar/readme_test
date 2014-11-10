@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/conversion read all
+        * @api {get} /{siteID}/conversion list
         * @apiName getall
         * @apiGroup Settings > /conversion
-        * @apiDescription Read all conversions for this site.
+        * @apiDescription list conversions for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/popoutchatdesigner read all
+        * @api {get} /{siteID}/popoutchatdesigner list
         * @apiName get
         * @apiGroup Settings > /popout chat designer
-        * @apiDescription Read all the poput chats for this site.
+        * @apiDescription list the poput chats for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -228,10 +228,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatcss read all css files
+        * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatcss list css files
         * @apiName getcssfiles
         * @apiGroup Settings > /popout chat designer
-        * @apiDescription Read all the CSS files for this site's popout chat designs
+        * @apiDescription list the CSS files for this site's popout chat designs
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -301,10 +301,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatjs read all javascript files
+        * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatjs list javascript files
         * @apiName getjsfiles
         * @apiGroup Settings > /popout chat designer
-        * @apiDescription Read all the javascript files for this site's popout chat designs
+        * @apiDescription list the javascript files for this site's popout chat designs
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:

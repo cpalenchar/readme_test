@@ -49,8 +49,11 @@
     <Compile Include="CobrowseReplacementController.cs" />
     <Compile Include="ContentTargettingController.cs" />
     <Compile Include="ConversionController.cs" />
+    <Compile Include="DashboardController.cs" />
     <Compile Include="DocTest.cs" />
     <Compile Include="EngagementScheduleController.cs" />
+    <Compile Include="ExportAccountUtiliztionController.cs" />
+    <Compile Include="ExportAgentAvailabilityController.cs" />
     <Compile Include="GalleryItemController.cs" />
     <Compile Include="GroupController.cs" />
     <Compile Include="InlineChatDesignerController.cs" />

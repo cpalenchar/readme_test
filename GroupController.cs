@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/group read all 
+        * @api {get} /{siteID}/group list 
         * @apiName get
         * @apiGroup Settings > /group
-        * @apiDescription Read all groups for a site.
+        * @apiDescription list groups for a site.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}              Example usage:
@@ -161,7 +161,7 @@ namespace readme_test
         * @api {get} /{siteID}/group/:id read
         * @apiName get:id
         * @apiGroup Settings > /group
-        * @apiDescription Read all the details of the group by id.
+        * @apiDescription list the details of the group by id.
         * @apiPermission siteManager
         *
         * @apiExample       {curl}              Example usage:
@@ -742,7 +742,7 @@ namespace readme_test
         * @api {get} /{siteID}/group/getusers/:id read users
         * @apiName getusers:id
         * @apiGroup Settings > /group
-        * @apiDescription Read all users for a group.
+        * @apiDescription list users for a group.
         * @apiPermission agent
         *
         * @apiExample       {curl}              Example usage:

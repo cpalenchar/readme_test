@@ -15,7 +15,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{siteID}/activityfeed read all
+         * @api {get} /{siteID}/activityfeed list
          * @apiDescription Returns all activities in the past 8 hours for a site
          * @apiPermission siteAdmin
          * @apiGroup Reporting > /activity feed
@@ -75,7 +75,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{siteID}/activityfeed/getbydate/:range read by date
+         * @api {get} /{siteID}/activityfeed/getbydate/:range list by date
          * @apiDescription Returns all activities within the provided date range
          * @apiPermission siteAdmin
          * @apiGroup Reporting > /activity feed
@@ -151,7 +151,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{siteID}/activityfeed/user/:userID read by user
+         * @api {get} /{siteID}/activityfeed/user/:userID list by user
          * @apiDescription Returns all activities for the provided user id
          * @apiPermission agent
          * @apiGroup Reporting > /activity feed
@@ -221,7 +221,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{siteID}/activityfeed/group/:groupID read by group
+         * @api {get} /{siteID}/activityfeed/group/:groupID list by group
          * @apiDescription Returns all activities for the provided group id
          * @apiPermission siteAdmin
          * @apiGroup Reporting > /activity feed
@@ -287,7 +287,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{siteID}/activityfeed/user/:userID/getbydate/:range read by user by date
+         * @api {get} /{siteID}/activityfeed/user/:userID/getbydate/:range list by user by date
          * @apiDescription Returns all activities within the provided date range for the specified user id.
          * @apiPermission agent
          * @apiGroup Reporting > /activity feed
@@ -362,7 +362,7 @@ namespace readme_test
         #region apiComments
         /**
          * @apiVersion 0.1.0
-         * @api {get} /{SiteID}/ActivityFeed/Group/:groupID/GetByDate/:range read by group by date
+         * @api {get} /{SiteID}/ActivityFeed/Group/:groupID/GetByDate/:range list by group by date
          * @apiDescription Returns all activities within the provided date range for the specified group id.
          * @apiPermission agent
          * @apiGroup Reporting > /activity feed

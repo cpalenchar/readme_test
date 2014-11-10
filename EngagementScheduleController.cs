@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/engagementschedule/getbygroup/:groupID read by group
+        * @api {get} /{siteID}/engagementschedule/getbygroup/:groupID list by group
         * @apiName getbygroup
         * @apiGroup Settings > /engagement schedule
-        * @apiDescription Read all engagement schedules for this group.
+        * @apiDescription list engagement schedules for this group.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -62,10 +62,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/engagementschedule/getbyuser/:userID read by user
+        * @api {get} /{siteID}/engagementschedule/getbyuser/:userID list by user
         * @apiName getbyuser
         * @apiGroup Settings > /engagement schedule
-        * @apiDescription Read all engagement schedules for this user.
+        * @apiDescription list engagement schedules for this user.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -113,10 +113,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/engagementschedule/ read all
+        * @api {get} /{siteID}/engagementschedule/ list
         * @apiName get
         * @apiGroup Settings > /engagement schedule
-        * @apiDescription Read all the engagement schedules for this site.
+        * @apiDescription list the engagement schedules for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:
@@ -166,7 +166,7 @@ namespace readme_test
         * @api {get} /{siteID}/engagementschedule/:id read
         * @apiName get:ID
         * @apiGroup Settings > /engagement schedule
-        * @apiDescription Read all engagement schedules for this group.
+        * @apiDescription list engagement schedules for this group.
         * @apiPermission siteAdministrator
         *
         * @apiParam         {Number}        siteID                                              The site's unique id.

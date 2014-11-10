@@ -190,10 +190,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cannedresponse/getbysite read all
+        * @api {get} /{siteID}/cannedresponse/getbysite list
         * @apiName getbysite
         * @apiGroup Settings > /canned response
-        * @apiDescription Read all the canned responses for a site.
+        * @apiDescription list the canned responses for a site.
         * @apiPermission agent
         *
         * @apiExample       {curl}              Example usage:
@@ -241,10 +241,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cannedresponse/getbygroup/:groupID read by group
+        * @api {get} /{siteID}/cannedresponse/getbygroup/:groupID list by group
         * @apiName getbygroup
         * @apiGroup Settings > /canned response
-        * @apiDescription Read all the canned respones for this group.
+        * @apiDescription list the canned respones for this group.
         * @apiPermission agent
         * 
         * @apiExample       {curl}              Example usage:
@@ -292,10 +292,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cannedresponse/getbyuser/:userID read by user
+        * @api {get} /{siteID}/cannedresponse/getbyuser/:userID list by user
         * @apiName getbyuser
         * @apiGroup Settings > /canned response
-        * @apiDescription Read all the canned responses for this user.
+        * @apiDescription list the canned responses for this user.
         * @apiPermission agent
         * 
         * @apiExample       {curl}              Example usage:
@@ -343,10 +343,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cannedresponse/getbytag/:tag read by tag
+        * @api {get} /{siteID}/cannedresponse/getbytag/:tag list by tag
         * @apiName getbytag
         * @apiGroup Settings > /canned response
-        * @apiDescription Read all the canned respones for this tag
+        * @apiDescription list the canned respones for this tag
         * @apiPermission agent
         * 
         * @apiExample       {curl}              Example usage:

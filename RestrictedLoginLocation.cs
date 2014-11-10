@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/restrictedloginlocation read all
+        * @api {get} /{siteID}/restrictedloginlocation list
         * @apiName get
         * @apiGroup Settings > /restricted login location
-        * @apiDescription Read all the restricted logins for this site.
+        * @apiDescription list the restricted logins for this site.
         * @apiPermission siteAdministrator
         *
         * @apiExample       {curl}              Example usage:

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/contenttargeting read all
+        * @api {get} /{siteID}/contenttargeting list
         * @apiName getall
         * @apiGroup Settings > /content targeting
-        * @apiDescription Read all the content Targeting for this site.
+        * @apiDescription list the content Targeting for this site.
         * @apiPermission siteManager
         * 
         * @apiExample       {curl}              Example usage:

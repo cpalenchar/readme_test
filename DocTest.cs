@@ -15,7 +15,7 @@ namespace readme_test
         * @apiName get
         * @apiGroup Settings > /blockedvisitor1
         * @apiGroupDescription Provides access to manage blocked visitors, ip address ranges, and to read visitors that have been blocked.
-        * @apiDescription Read all blocked visitors for this site.
+        * @apiDescription list blocked visitors for this site.
         * @apiPermission siteAdministrator
         * 
         * @apiExample       {curl}              Example usage:

@@ -11,10 +11,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/cobrowsedomain read all
+        * @api {get} /{siteID}/cobrowsedomain list
         * @apiName get
         * @apiGroup Settings > /cobrowse domain
-        * @apiDescription Read all the cobrowse domains for your site.
+        * @apiDescription list the cobrowse domains for your site.
         * @apiPermission siteManager
         * 
         * @apiExample       {curl}              Example usage:

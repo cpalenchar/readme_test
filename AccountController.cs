@@ -242,10 +242,10 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/account/getallusers/ read all
+        * @api {get} /{siteID}/account/getallusers/ list
         * @apiName Get All
         * @apiGroup Settings > /account
-        * @apiDescription Read all the user profiles for this site.
+        * @apiDescription list the user profiles for this site.
         * @apiPermission siteManager
         * 
         * @apiExample       {curl}              Example usage:
