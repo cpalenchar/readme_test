@@ -55,6 +55,8 @@
     <Compile Include="InlineChatDesignerController.cs" />
     <Compile Include="InvitationController.cs" />
     <Compile Include="NotificationController.cs" />
+    <Compile Include="PersonaController.cs" />
+    <Compile Include="PopoutChatDesignerController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
