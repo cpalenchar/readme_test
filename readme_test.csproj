@@ -43,6 +43,10 @@
   <ItemGroup>
     <Compile Include="AccountController.cs" />
     <Compile Include="AlertController.cs" />
+    <Compile Include="CannedResponseController.cs" />
+    <Compile Include="CobrowseDomainController.cs" />
+    <Compile Include="CobrowseReplacementController.cs" />
+    <Compile Include="ContentTargettingController.cs" />
     <Compile Include="DocTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

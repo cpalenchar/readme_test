@@ -11,7 +11,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {get} /{siteID}/alert/getbysite/:id get by site
+        * @api {get} /{siteID}/alert/getbysite get by site
         * @apiName GetBySite
         * @apiGroup SETTINGS > /alert
         * @apiDescription Read all alerts for this site.
@@ -108,7 +108,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/alert/ create
+        * @api {post} /{siteID}/alert create
         * @apiName post
         * @apiGroup SETTINGS > /alert
         * @apiDescription Create a new alert.
@@ -163,7 +163,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {put} /{siteID}/Alert/ update
+        * @api {put} /{siteID}/alert update
         * @apiName Put
         * @apiGroup SETTINGS > /alert
         * @apiDescription Update an alert.
@@ -256,7 +256,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {post} /{siteID}/alert/addrecipient/ add recipient
+        * @api {post} /{siteID}/alert/addrecipient add recipient
         * @apiName postrecipient
         * @apiGroup SETTINGS > /alert
         * @apiDescription Add a recipient to this alert.
@@ -311,7 +311,7 @@ namespace readme_test
         #region apiComments
         /**
         * @apiVersion 0.1.0
-        * @api {delete} /{siteID}/Alert/deleterecipient/ delete recipient
+        * @api {delete} /{siteID}/Alert/deleterecipient delete recipient
         * @apiName deleterecipient
         * @apiGroup SETTINGS > /alert
         * @apiDescription Delete a recipient from this alert.
