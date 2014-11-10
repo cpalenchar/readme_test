@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/persona read all
         * @apiName get
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Read all the personas for this site.
         * @apiPermission siteAdministrator
         *
@@ -89,7 +89,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/persona/:id read
         * @apiName get:id
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Read the personas for this unique id.
         * @apiPermission siteAdministrator
         *
@@ -166,7 +166,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/persona create
         * @apiName post
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Create a new persona.
         * @apiPermission siteAdministrator
         *
@@ -222,7 +222,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/persona update
         * @apiName put
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Update a persona.
         * @apiPermission siteAdministrator
         *
@@ -278,7 +278,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/persona/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Delete a persona.
         * @apiPermission siteAdministrator
         *
@@ -308,7 +308,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/Persona/AddPersonaEvalutaion create evaluation
         * @apiName PostEvalutaion
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Create a new persona evaluation.
         * @apiPermission siteAdministrator
         *
@@ -369,7 +369,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/Persona/UpdatePersonaEvalutaion update evaluation
         * @apiName PutEvaluation
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Update a persona evaluation.
         * @apiPermission siteAdministrator
         *
@@ -432,7 +432,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/Persona/updatepersonaevalutaions update evaluations
         * @apiName putevaluations
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Update a persona evaluation.
         * @apiPermission siteAdministrator
         *
@@ -496,7 +496,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/persona/deletepersonaevalutaions/:id delete evaluation
         * @apiName deleteevaluation
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Delete a persona evaluation.
         * @apiPermission siteAdministrator
         *
@@ -527,7 +527,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/persona/personaheadshot/:id create headshot
         * @apiName postheadshot
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Create a headshot for this persona.
         * @apiPermission siteAdministrator
         *
@@ -564,7 +564,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/persona/personasingroup/:personaID read persona groups by persona
         * @apiName getpersonasingroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Read all the persona groups for this persona.
         * @apiPermission siteAdministrator
         *
@@ -609,7 +609,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/persona/personagroup read all persona groups
         * @apiName getpersonagroups
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Read all the persona groups for this site.
         * @apiPermission siteAdministrator
         *
@@ -653,7 +653,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/persona/addpersonagroup create persona group
         * @apiName postpersonagroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Add a new persona group.
         * @apiPermission siteAdministrator
         *
@@ -700,7 +700,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/persona/updatepersonagroup update persona group
         * @apiName putpersonagroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Update a persona group.
         * @apiPermission siteAdministrator
         *
@@ -749,7 +749,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/persona/deletepersonagroup/:id delete persona group
         * @apiName deletepersonagroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Delete a persona group.
         * @apiPermission siteAdministrator
         *
@@ -780,7 +780,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/persona/addpersonatogroup add persona to group
         * @apiName postpersonatogroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Add a new persona group.
         * @apiPermission siteAdministrator
         *
@@ -825,7 +825,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/persona/removepersonafromgroup delete persona from froup
         * @apiName deletepersonafromgroup
-        * @apiGroup SETTINGS > /persona
+        * @apiGroup Settings > /persona
         * @apiDescription Add a new persona group.
         * @apiPermission siteAdministrator
         *

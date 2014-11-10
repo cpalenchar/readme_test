@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/inlinechatdesigner read all
         * @apiName get
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Read all the inline chat designs for a site.
         * @apiPermission siteManager
         *
@@ -107,7 +107,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/inlinechatdesigner/:groupID read
         * @apiName get:groupID
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Read the inline chat designs for a group.
         * @apiPermission siteManager
         *
@@ -201,7 +201,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/inlinechatdesigner update
         * @apiName put
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Update the inline chat design for a group.
         * @apiPermission siteManager
         *
@@ -324,7 +324,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/inlinechatdesigner/restoredefaults/:groupID restore defaults
         * @apiName restoredefaults:groupID
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Restore the group's inline chat design to default settings
         * @apiPermission siteManager
         *
@@ -422,7 +422,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/inlinechatdesigner/inlinechatcss read all inline chat css files
         * @apiName getallinlinechatcssfiles
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Read the inline chat css files for a site.
         * @apiPermission siteManager
         *
@@ -458,7 +458,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/inlinechatdesigner/inlinechatcss/:groupID read inline chat css file
         * @apiName getinlinechatcssfile
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Read the inline chat css file for a group.
         * @apiPermission siteManager
         *
@@ -496,7 +496,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/inlinechatdesigner/inlinechatcss update inline chat css file
         * @apiName putinlinechatcssfile
-        * @apiGroup SETTINGS > /inline chat designer
+        * @apiGroup Settings > /inline chat designer
         * @apiDescription Update he inline chat css file for a group.
         * @apiPermission siteManager
         *

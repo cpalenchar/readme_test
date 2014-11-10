@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/alert/getbysite get by site
         * @apiName GetBySite
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Read all alerts for this site.
         * @apiPermission siteManager
         *
@@ -62,7 +62,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/alert/:id read
         * @apiName get
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Read the alert for this id.
         * @apiPermission agent
         * 
@@ -110,7 +110,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/alert create
         * @apiName post
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Create a new alert.
         * @apiPermission siteManager
         *
@@ -165,7 +165,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/alert update
         * @apiName Put
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Update an alert.
         * @apiPermission siteManager
         *
@@ -221,7 +221,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/alert/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS >  /alert
+        * @apiGroup Settings >  /alert
         * @apiDescription Delete an alert.
         * @apiPermission siteManager
         *
@@ -258,7 +258,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/alert/addrecipient add recipient
         * @apiName postrecipient
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Add a recipient to this alert.
         * @apiPermission siteManager
         *
@@ -313,7 +313,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/Alert/deleterecipient delete recipient
         * @apiName deleterecipient
-        * @apiGroup SETTINGS > /alert
+        * @apiGroup Settings > /alert
         * @apiDescription Delete a recipient from this alert.
         * @apiPermission siteManager
         *

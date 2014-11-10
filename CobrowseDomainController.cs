@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cobrowsedomain read all
         * @apiName get
-        * @apiGroup SETTINGS > /cobrowse domain
+        * @apiGroup Settings > /cobrowse domain
         * @apiDescription Read all the cobrowse domains for your site.
         * @apiPermission siteManager
         * 
@@ -59,7 +59,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cobrowsedomain/:id read
         * @apiName read:id
-        * @apiGroup SETTINGS > /Cobrowse Domain
+        * @apiGroup Settings > /Cobrowse Domain
         * @apiDescription Read the cobrowse domain for the id.
         * @apiPermission siteManager
         *
@@ -105,7 +105,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/cobrowsedomain/ create
         * @apiName post
-        * @apiGroup SETTINGS > /Cobrowse Domain
+        * @apiGroup Settings > /Cobrowse Domain
         * @apiDescription Create a new cobrowse domain.
         * @apiPermission siteManager
         * 
@@ -156,7 +156,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/cobrowsedomain/ update
         * @apiName put
-        * @apiGroup SETTINGS > /Cobrowse Domain
+        * @apiGroup Settings > /Cobrowse Domain
         * @apiDescription Update a cobrowse domain.
         * @apiPermission siteManager
         *
@@ -207,7 +207,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/cobrowsedomain/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /cobrowse domain
+        * @apiGroup Settings > /cobrowse domain
         * @apiDescription Delete acobrowse domain.
         * @apiPermission siteManager
         *

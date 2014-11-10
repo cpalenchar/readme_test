@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/group read all 
         * @apiName get
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Read all groups for a site.
         * @apiPermission siteManager
         *
@@ -160,7 +160,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/group/:id read
         * @apiName get:id
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Read all the details of the group by id.
         * @apiPermission siteManager
         *
@@ -307,7 +307,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/group create
         * @apiName Post
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Create a new group.
         * @apiPermission siteAdministrator
         *
@@ -513,7 +513,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/group update
         * @apiName put
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Update a group.
         * @apiPermission siteAdministrator
         *
@@ -712,7 +712,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/group/:id delete 
         * @apiName delete
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Delete a group by it's id.
         * @apiPermission siteAdministrator
         *
@@ -741,7 +741,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/group/getusers/:id read users
         * @apiName getusers:id
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Read all users for a group.
         * @apiPermission agent
         *
@@ -887,7 +887,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/group/adduser create group user
         * @apiName postgroupuser
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Add a user to this group.
         * @apiPermission siteAdministrator
         *
@@ -958,7 +958,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/group/updateuser update group user
         * @apiName putgroupuser
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Update a user that is already a memeber of this group.
         * @apiPermission siteAdministrator
         *
@@ -1038,7 +1038,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/Group/removeuser delete user group
         * @apiName deleteusergroup
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Remove a user from this group.
         * @apiPermission siteAdministrator
         *
@@ -1093,7 +1093,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/group/configurationproperty update configuration property
         * @apiName updateconfigurationproperty
-        * @apiGroup SETTINGS > /group
+        * @apiGroup Settings > /group
         * @apiDescription Update a configuration property for this group.
         * @apiPermission siteAdministrator
         *

@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/conversion read all
         * @apiName getall
-        * @apiGroup SETTINGS > /conversion
+        * @apiGroup Settings > /conversion
         * @apiDescription Read all conversions for this site.
         * @apiPermission siteAdministrator
         *
@@ -63,7 +63,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/conversion create
         * @apiName post
-        * @apiGroup SETTINGS > /conversion
+        * @apiGroup Settings > /conversion
         * @apiDescription Create a new conversoin for this site.
         * @apiPermission siteAdministrator
         *
@@ -120,7 +120,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/conversion update
         * @apiName put
-        * @apiGroup SETTINGS > /conversion
+        * @apiGroup Settings > /conversion
         * @apiDescription Update a conversoin for this site.
         * @apiPermission siteAdministrator
         *
@@ -179,7 +179,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {deleate} /{siteID}/conversion/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /conversion
+        * @apiGroup Settings > /conversion
         * @apiDescription Delete a conversoin for this site.
         * @apiPermission siteAdministrator
         *

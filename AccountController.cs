@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/login/ login
         * @apiName Login
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Login to the api.
         * @apiPermission anonymous
         * 
@@ -66,7 +66,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/logout/logout
         * @apiName Logout
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Logout of the api.
         * @apiPermission anonymous
         * 
@@ -98,7 +98,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/get/:id read
         * @apiName Get:id
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Read the profile for this user.
         * @apiPermission agent
         * 
@@ -244,7 +244,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/account/getallusers/ read all
         * @apiName Get All
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Read all the user profiles for this site.
         * @apiPermission siteManager
         * 
@@ -390,7 +390,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/account/post/ update profile
         * @apiName Post
-        *  @apiGroup SETTINGS > /account
+        *  @apiGroup Settings > /account
         * @apiDescription Update the profile for this user.
         * @apiPermission agent
         * 
@@ -549,7 +549,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/changepassword/ update password
         * @apiName Put Password
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Update the password for the user that is logged in.
         * @apiPermission agent
         * 
@@ -596,7 +596,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/account/updatetier/ update tier
         * @apiName Put Tier
-        * @apiGroup SETTINGS > /account
+        * @apiGroup Settings > /account
         * @apiDescription Update the tier for this user in this group.
         * @apiPermission siteAdministrator
         *

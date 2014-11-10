@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site/getall read all
         * @apiName getall
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read all the sites for this user.
         * @apiPermission siteAdministrator
         * 
@@ -228,7 +228,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site read
         * @apiName get
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read the site for this user.
         * @apiPermission siteAdministrator
         * 
@@ -442,7 +442,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/site create
         * @apiName post
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Create a new site.
         * @apiPermission super
         * 
@@ -562,7 +562,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/site update
         * @apiName Put
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Update this site.
         * @apiPermission super
         * 
@@ -682,7 +682,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/site/logo create logo
         * @apiName postlogo
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Create a logo for this site.
         * @apiPermission super
         * 
@@ -716,7 +716,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site/getnewuserrequest/:id get new user reqeuest
         * @apiName getnewuserrequest:id
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read the new user request for this unique id.
         * @apiPermission anonymous
         * 
@@ -771,7 +771,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site/getnewuserrequests read all new user requests
         * @apiName getnewuserrequests
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read the new user requests for this site.
         * @apiPermission siteManager
         * 
@@ -825,7 +825,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/site/createnewuserrequests create new user requests
         * @apiName postnewuserrequests
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Create new user requests for this site.
         * @apiPermission siteAdministrator
         * 
@@ -890,7 +890,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/site/createnewuserrequest create new user request
         * @apiName postnewuserrequest
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Create new user request for this site.
         * @apiPermission siteAdministrator
         * 
@@ -954,7 +954,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/site/deletenewuserrequest/:id delete new user request
         * @apiName deletenewuserrequest:ID
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Delete new user request for this site.
         * @apiPermission siteAdministrator
         *
@@ -985,7 +985,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/site/acceptnewuserrequest accept new user request
         * @apiName postnewuserrequest
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription A user has received an invitation and is accepting the request to join.
         * @apiPermission anonymous
         * 
@@ -1028,7 +1028,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/site/removeuser delete user
         * @apiName deleteuser
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Deletes a user from a site.
         * @apiPermission siteAdministrator
         * 
@@ -1063,7 +1063,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site/getsiteconfiguration read site configuration
         * @apiName getsiteconfiguration
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read the configuration for this site.
         * @apiPermission siteAdministrator
         * 
@@ -1146,7 +1146,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/site/configurationproperty update configuration property
         * @apiName putconfigurationproperty
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Update this site.
         * @apiPermission super
         * 
@@ -1191,7 +1191,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/site/updateSiteadministratorconfiguration update site administrator configuration
         * @apiName putsiteadministratorconfiguration
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Update the administration configuration for this site.
         * @apiPermission siteAdministrator
         * 
@@ -1300,7 +1300,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/site/getsiteurls read site urls
         * @apiName getsiteURLs
-        * @apiGroup SETTINGS > /site
+        * @apiGroup Settings > /site
         * @apiDescription Read the urls for this site.
         * @apiPermission siteAdministrator
         * 

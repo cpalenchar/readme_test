@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/engagementschedule/getbygroup/:groupID read by group
         * @apiName getbygroup
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Read all engagement schedules for this group.
         * @apiPermission siteAdministrator
         *
@@ -64,7 +64,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/engagementschedule/getbyuser/:userID read by user
         * @apiName getbyuser
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Read all engagement schedules for this user.
         * @apiPermission siteAdministrator
         *
@@ -115,7 +115,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/engagementschedule/ read all
         * @apiName get
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Read all the engagement schedules for this site.
         * @apiPermission siteAdministrator
         *
@@ -165,7 +165,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/engagementschedule/:id read
         * @apiName get:ID
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Read all engagement schedules for this group.
         * @apiPermission siteAdministrator
         *
@@ -211,7 +211,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/engagementschedule create
         * @apiName post
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Create a new engagement schedule for this group.
         * @apiPermission siteAdministrator
         *
@@ -268,7 +268,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/engagementschedule update
         * @apiName put
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Create a new engagement schedule for this group.
         * @apiPermission siteAdministrator
         *
@@ -326,7 +326,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/engagementschedule/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /engagement schedule
+        * @apiGroup Settings > /engagement schedule
         * @apiDescription Delete the engagement schedule for this id.
         * @apiPermission siteAdministrator
         *

@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/restrictedloginlocation read all
         * @apiName get
-        * @apiGroup SETTINGS > /restricted login location
+        * @apiGroup Settings > /restricted login location
         * @apiDescription Read all the restricted logins for this site.
         * @apiPermission siteAdministrator
         *
@@ -59,7 +59,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/restrictedloginlocation create
         * @apiName post
-        * @apiGroup SETTINGS > /restricted login location
+        * @apiGroup Settings > /restricted login location
         * @apiDescription Create a new restricted login.
         * @apiPermission siteAdministrator
         *
@@ -110,7 +110,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/restrictedloginlocation update
         * @apiName put
-        * @apiGroup SETTINGS > /restricted login location
+        * @apiGroup Settings > /restricted login location
         * @apiDescription Create a new restricted login.
         * @apiPermission siteAdministrator
         *
@@ -161,7 +161,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delte} /{siteID}/restrictedloginlocation/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /restricted Login Location
+        * @apiGroup Settings > /restricted Login Location
         * @apiDescription Create a new restricted login.
         * @apiPermission siteAdministrator
         *

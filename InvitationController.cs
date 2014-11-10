@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/invitationcontroller read all
         * @apiName get
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Read all the invitations for a site.
         * @apiPermission siteManager
         *
@@ -111,7 +111,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/invitationcontroller/:invitationID read
         * @apiName get:invitationID
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Read the invitation for this unique id.
         * @apiPermission siteManager
         *
@@ -209,7 +209,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/invitationcontroller/getgalleryitem/:galleryItemID read by gallery item
         * @apiNamegGet:galleryItemID
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Read the invitation for this gallery item.
         * @apiPermission siteManager
         * 
@@ -307,7 +307,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/invitationcontroller create
         * @apiName post
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Create a new invitation.
         * @apiPermission siteManager
         *
@@ -434,7 +434,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/invitationcontroller update
         * @apiName put
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Update an invitation.
         * @apiPermission siteManager
         *
@@ -563,7 +563,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/invitationcontroller/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /invitation
+        * @apiGroup Settings > /invitation
         * @apiDescription Delete an invitation.
         * @apiPermission siteManager
         *

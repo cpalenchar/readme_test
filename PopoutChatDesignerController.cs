@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner read all
         * @apiName get
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read all the poput chats for this site.
         * @apiPermission siteAdministrator
         *
@@ -65,7 +65,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatcesigner/:groupID read 
         * @apiName get:groupID
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read the poput chat for this group.
         * @apiPermission siteAdministrator
         *
@@ -117,7 +117,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/popoutchatdesigner update
         * @apiName put
-        * @apiGroupM SETTINGS > /popout chat designer
+        * @apiGroupM Settings > /popout chat designer
         * @apiDescription Update the popout chat design
         * @apiPermission siteAdministrator
         *
@@ -178,7 +178,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner/restoredefaults/:groupID restore defaults
         * @apiName getrestoredefaults
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Update the popout chat design
         * @apiPermission siteAdministrator
         *
@@ -230,7 +230,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatcss read all css files
         * @apiName getcssfiles
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read all the CSS files for this site's popout chat designs
         * @apiPermission siteAdministrator
         *
@@ -266,7 +266,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatcss/:groupID read css file
         * @apiName getcssfile
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read the CSS files for this group's popout chat designs
         * @apiPermission siteAdministrator
         *
@@ -303,7 +303,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatjs read all javascript files
         * @apiName getjsfiles
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read all the javascript files for this site's popout chat designs
         * @apiPermission siteAdministrator
         *
@@ -339,7 +339,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/popoutchatdesigner/getpopoutchatjs/:groupID read javascript file
         * @apiName getjsfile
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read the CSS files for this group's popout chat designs
         * @apiPermission siteAdministrator
         *
@@ -376,7 +376,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/popoutchatdesigner/popoutchatcss/:groupID update css file
         * @apiName putcssfile
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read the CSS files for this group's popout chat designs
         * @apiPermission siteAdministrator
         *
@@ -408,7 +408,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/popoutchatdesigner/popoutchatjs/:groupID Update CSS File
         * @apiName putjsfile
-        * @apiGroup SETTINGS > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Read the CSS files for this group's popout chat designs
         * @apiPermission siteAdministrator
         *

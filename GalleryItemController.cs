@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryItemcontroller/:id read
         * @apiName get
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery item for this id.
         * @apiPermission siteAdministrator
         *
@@ -73,7 +73,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller create
         * @apiName post
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Create a new gallery item.
         * @apiPermission siteAdministrator
         *
@@ -145,7 +145,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/galleryitemcontroller update
         * @apiName put
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Update a gallery item.
         * @apiPermission siteAdministrator
         *
@@ -217,7 +217,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/galleryitemcontroller/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Delete a gallery item.
         * @apiPermission siteAdministrator
         *
@@ -251,7 +251,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/getgalleryvotes/:id read votes
         * @apiName getvotes
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the votes for the gallery item for this id.
         * @apiPermission siteAdministrator
         *
@@ -296,7 +296,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/postgalleryvote create vote
         * @apiName postvote
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Create a new vote for the gallery item.
         * @apiPermission siteAdministrator
         *
@@ -344,7 +344,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/putgalleryvote update vote
         * @apiName putvote
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Update a vote for the gallery item.
         * @apiPermission siteAdministrator
         *
@@ -393,7 +393,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/galleryitemcontroller/deletegalleryvote/:id delete vote
         * @apiName deletevote
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Delete a vote for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -427,7 +427,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/approvegalleryitem/:galleryItemID approve
         * @apiName postapprove
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Approve a new item gallery item.
         * @apiPermission siteAdministrator
         *
@@ -456,7 +456,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/buttongalleries read all button galleries
         * @apiName getallbuttongalleries
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are buttons for this site.
         * @apiPermission siteAdministrator
         *
@@ -528,7 +528,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/buttongalleryfiles/:id read all button gallery files
         * @apiName getallbuttongalleryfiles
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the button gallery file for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -599,7 +599,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/createonlinejpg/:groupID/:galleryItemID/ create online jpg
         * @apiName postonlinejpg
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Create an image file for the online button this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -634,7 +634,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/createofflinejpg/:groupID/:galleryItemID create offline jpg
         * @apiName postofflinejpg
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Create an image file for the offline button this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -669,7 +669,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/uploadbutton upload button
         * @apiName postbutton
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Upload a new button to be used in a gallery for this site.
         * @apiPermission siteAdministrator
         *
@@ -699,7 +699,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/deletebutton/:galleryItemID delete button
         * @apiName postdeletebutton
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Delete button for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -738,7 +738,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/invitationgalleries read all invitation galleries
         * @apiName getallinvitationgalleries
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are invitations for this site.
         * @apiPermission siteAdministrator
         *
@@ -810,7 +810,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/invitationgalleryfiles/:id read invitation gallery file
         * @apiName getinvitationgalleryfile
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the invitation gallery files for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -882,7 +882,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/contributeinvitation contribute invitation
         * @apiName postcontributeinvitation
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Contribute an invitation to this gallery.
         * @apiPermission siteAdministrator
         *
@@ -947,7 +947,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/deleteinvitation/:galleryItemID delete invitation
         * @apiName postdeleteinvitation
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Delete the invitation for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -986,7 +986,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/skingalleries read all skin galleries
         * @apiName getallskingalleries
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the gallery items that are skins for this site.
         * @apiPermission siteAdministrator
         *
@@ -1058,7 +1058,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/galleryitemcontroller/skingalleryfiles/:galleryItemID read Skin gallery files
         * @apiName getallskingalleryfiles
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Read the skin gallery files for this gallery item.
         * @apiPermission siteAdministrator
         *
@@ -1131,7 +1131,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/contributeskin contribute skin
         * @apiName postcontributeskin
-        * @apiGroup SETTINGS > /gallery Item
+        * @apiGroup Settings > /gallery Item
         * @apiDescription Contribute an skin to this gallery.
         * @apiPermission siteAdministrator
         *
@@ -1173,7 +1173,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/galleryitemcontroller/createskin create skin
         * @apiName postskin
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Create a new skin for this gallery.
         * @apiPermission siteAdministrator
         *
@@ -1249,7 +1249,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/galleryitemcontroller/deleteskin/:galleryItemID delete skin
         * @apiName deleteskin
-        * @apiGroup SETTINGS > /gallery item
+        * @apiGroup Settings > /gallery item
         * @apiDescription Delete a skin from this gallery.
         * @apiPermission siteAdministrator
         *

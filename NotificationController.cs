@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/notification/:id read
         * @apiName get
-        * @apiGroup SETTINGS > /notification
+        * @apiGroup Settings > /notification
         * @apiDescription Read a notification.
         * @apiPermission agent
         *

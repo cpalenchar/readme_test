@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountController.cs" />
+    <Compile Include="ActivityFeedController.cs" />
     <Compile Include="AlertController.cs" />
     <Compile Include="CannedResponseController.cs" />
     <Compile Include="CobrowseDomainController.cs" />

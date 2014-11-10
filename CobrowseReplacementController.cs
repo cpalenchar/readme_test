@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cobrowsereplacement read all
         * @apiName get
-        * @apiGroup SETTINGS > /cobrowse replacement
+        * @apiGroup Settings > /cobrowse replacement
         * @apiDescription Read all the cobrowse replacements for this site.
         * @apiPermission siteManager
         *
@@ -57,7 +57,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cobrowsereplacement/:id read
         * @apiName get:id
-        * @apiGroup SETTINGS > /cobrowse replacement
+        * @apiGroup Settings > /cobrowse replacement
         * @apiDescription Read the cobrowse replacement for this id.
         * @apiPermission siteManager
         *
@@ -101,7 +101,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/cobrowsereplacement/ create
         * @apiName post
-        * @apiGroup SETTINGS > /cobrowse replacement
+        * @apiGroup Settings > /cobrowse replacement
         * @apiDescription Create a new cobrowse replacement.
         * @apiPermission siteManager
         *
@@ -149,7 +149,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/cobrowsereplacement/ update
         * @apiName put
-        * @apiGroup SETTINGS > /cobrowse replacement
+        * @apiGroup Settings > /cobrowse replacement
         * @apiDescription Update a cobrowse replacement.
         * @apiPermission siteManager
         *
@@ -198,7 +198,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/cobrowsereplacement/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /cobrowse replacement
+        * @apiGroup Settings > /cobrowse replacement
         * @apiDescription Delete cobrowse replacement.
         * @apiPermission siteManager
         *

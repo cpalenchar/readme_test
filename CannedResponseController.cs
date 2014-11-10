@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/gettagsforagentchat/:groupID read tags for agent
         * @apiName gettagsforagentchat
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read the tag utilizations for the authenticated user in this group.
         * @apiPermission agent
         * 
@@ -76,7 +76,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/gettagutilizationbygroup/:groupID read tag utilization by group
         * @apiName gettagutilizationBygroup
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read the tag utilizations for a group.
         * @apiPermission agent
         * 
@@ -141,7 +141,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/:id read
         * @apiName getcannedresponse
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read the canned response for this id.
         * @apiPermission agent
         * 
@@ -192,7 +192,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/getbysite read all
         * @apiName getbysite
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read all the canned responses for a site.
         * @apiPermission agent
         *
@@ -243,7 +243,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/getbygroup/:groupID read by group
         * @apiName getbygroup
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read all the canned respones for this group.
         * @apiPermission agent
         * 
@@ -294,7 +294,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/getbyuser/:userID read by user
         * @apiName getbyuser
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read all the canned responses for this user.
         * @apiPermission agent
         * 
@@ -345,7 +345,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/cannedresponse/getbytag/:tag read by tag
         * @apiName getbytag
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Read all the canned respones for this tag
         * @apiPermission agent
         * 
@@ -396,7 +396,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/cannedresponse create
         * @apiName post
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Create a new canned response.
         * @apiPermission agent
         *
@@ -455,7 +455,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/cannedresponse update
         * @apiName put
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Update a canned response.
         * @apiPermission agent
         *
@@ -515,7 +515,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/cannedresponse/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Delete a canned response.
         * @apiPermission agent
         *
@@ -551,7 +551,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/cannedresponse/updateall  updateall
         * @apiName putall
-        * @apiGroup SETTINGS > /canned response
+        * @apiGroup Settings > /canned response
         * @apiDescription Update an array of canned responses.
         * @apiPermission agent
         *
@@ -619,7 +619,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/cannedresponse/updatesortorder updatesortorder
         * @apiName putsortorder
-        * @apiGroup SETTINGS >  /canned response
+        * @apiGroup Settings >  /canned response
         * @apiDescription Update an array of canned responses sort order.
         * @apiPermission agent
         *

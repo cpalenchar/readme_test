@@ -13,7 +13,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/contenttargeting read all
         * @apiName getall
-        * @apiGroup SETTINGS > /content targeting
+        * @apiGroup Settings > /content targeting
         * @apiDescription Read all the content Targeting for this site.
         * @apiPermission siteManager
         * 
@@ -63,7 +63,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {get} /{siteID}/contenttargeting/:id read
         * @apiName get:id
-        * @apiGroup SETTINGS > /content targeting
+        * @apiGroup Settings > /content targeting
         * @apiDescription Read a content Targeting for this id.
         * @apiPermission siteManager
         *
@@ -113,7 +113,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {post} /{siteID}/contenttargeting/ create
         * @apiName post
-        * @apiGroup SETTINGS > /content targeting
+        * @apiGroup Settings > /content targeting
         * @apiDescription Create a new content Targeting item for this site.
         * @apiPermission siteManager
         *
@@ -170,7 +170,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/contenttargeting/ update
         * @apiName put
-        * @apiGroup SETTINGS >  /content targeting
+        * @apiGroup Settings >  /content targeting
         * @apiDescription Update a content Targeting item for this site.
         * @apiPermission siteManager
         * 
@@ -228,7 +228,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {delete} /{siteID}/contenttargeting/:id delete
         * @apiName delete
-        * @apiGroup SETTINGS > /content targeting
+        * @apiGroup Settings > /content targeting
         * @apiDescription Delete a content Targeting item for this site.
         * @apiPermission siteManager
         *
