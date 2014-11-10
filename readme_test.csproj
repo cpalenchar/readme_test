@@ -51,6 +51,8 @@
     <Compile Include="DocTest.cs" />
     <Compile Include="EngagementScheduleController.cs" />
     <Compile Include="GalleryItemController.cs" />
+    <Compile Include="GroupController.cs" />
+    <Compile Include="InlineChatDesignerController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
