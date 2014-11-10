@@ -53,6 +53,8 @@
     <Compile Include="GalleryItemController.cs" />
     <Compile Include="GroupController.cs" />
     <Compile Include="InlineChatDesignerController.cs" />
+    <Compile Include="InvitationController.cs" />
+    <Compile Include="NotificationController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
