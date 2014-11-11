@@ -54,6 +54,7 @@
     <Compile Include="EngagementScheduleController.cs" />
     <Compile Include="ExportAccountUtiliztionController.cs" />
     <Compile Include="ExportAgentAvailabilityController.cs" />
+    <Compile Include="ExportAgentUtilizationController.cs" />
     <Compile Include="GalleryItemController.cs" />
     <Compile Include="GroupController.cs" />
     <Compile Include="InlineChatDesignerController.cs" />

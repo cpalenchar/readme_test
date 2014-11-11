@@ -117,7 +117,7 @@ namespace readme_test
         * @apiVersion 0.1.0
         * @api {put} /{siteID}/popoutchatdesigner update
         * @apiName put
-        * @apiGroupM Settings > /popout chat designer
+        * @apiGroup Settings > /popout chat designer
         * @apiDescription Update the popout chat design
         * @apiPermission siteAdministrator
         *
